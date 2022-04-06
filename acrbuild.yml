@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '8dde4aa7-59c9-45cd-aeaa-485ddf4e8366'
   imageRepository: 'sampdock'
   containerRegistry: 'sampacrr.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
