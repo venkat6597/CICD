@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '46dd4060-d452-4fe4-a28d-f15d25a7f0c4'
   imageRepository: 'samp/sampdock'
   containerRegistry: 'sampacrr.azurecr.io'
-  dockerfilePath: '**/CICD/blob/main/19-01-Azure-DevOps-BuildandPush-to-ACR/Git-Repository-files/Dockerfile'
+  dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'sampacrra64c-auth'
 
